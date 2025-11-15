@@ -1,0 +1,18 @@
+{
+  "scrape_date": "2025-11-15T11:08:36.885902",
+  "total_candidates": 3,
+  "municipalities": [
+    "Københavns Kommune"
+  ],
+  "parties": {
+    "A": 3
+  },
+  "files_created": [
+    "candidates_main.csv",
+    "candidates_svars.csv",
+    "candidates_svars_long.csv",
+    "candidates_priorities.csv",
+    "candidates_complete.json"
+  ],
+  "data_completeness": {
+    "uddannelse": 
