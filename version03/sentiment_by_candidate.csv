@@ -1,0 +1,120 @@
+name,party,Mean_Polarity,Median_Polarity,Std_Polarity,Response_Count
+Jacob Rosenberg,C,0.119,0.119,,1
+Freja Fokdal,B,0.063,0.063,,1
+Merete Winther Hildebrandt,C,0.043,0.043,,1
+August Gade,F,0.02,0.02,,1
+Nikolaj Rachdi Bührmann,F,0.015,0.015,,1
+Søren Dahlstrøm,A,0.007,0.007,,1
+Søren Brønchenburg,C,-0.01,-0.01,,1
+Carina Høedt,C,-0.013,-0.013,,1
+Jens Otto Jarløv,B,-0.02,-0.02,,1
+David Michael Gerschwald,O,-0.024,-0.024,,1
+Birgit Bech,Ø,-0.03,-0.03,,1
+Rami Zouzou,C,-0.041,-0.041,,1
+Kristoffer Appel,A,-0.046,-0.046,,1
+Preben Boldt,V,-0.046,-0.046,,1
+Kurt Pii,M,-0.046,-0.046,,1
+Claude Teisen-Simony,T,-0.047,-0.047,,1
+Per Odin Thiim Thim,E,-0.048,-0.048,,1
+Julius Lundsteen,F,-0.048,-0.048,,1
+Christian Ohm-Hieronymussen,V,-0.052,-0.052,,1
+Silas T. H. Rasmussen,C,-0.052,-0.052,,1
+Tilde Nordin Dræger,Ø,-0.052,-0.052,,1
+Malte Mathies Løcke,A,-0.055,-0.055,,1
+Kim Christiansen,A,-0.06,-0.06,,1
+Janek Balling Majewicz,A,-0.061,-0.061,,1
+Jakob Ørsted,Ø,-0.061,-0.061,,1
+Alexandra Dessoy,C,-0.061,-0.061,,1
+Jens-Christian Navarro Poulsen,B,-0.061,-0.061,,1
+Jesper Jerry Schou Nielsen,F,-0.061,-0.061,,1
+Martin Skytte,D,-0.061,-0.061,,1
+Peder Brandhof,C,-0.061,-0.061,,1
+Karsten Lauritsen,B,-0.061,-0.061,,1
+Klaus Eskelund,C,-0.061,-0.061,,1
+Malou Astrup,A,-0.061,-0.061,,1
+Malene Sandfeld,V,-0.061,-0.061,,1
+Laurids Kristian Fahl,Ø,-0.061,-0.061,,1
+Line Østergaard Olsen,I,-0.061,-0.061,,1
+Maj-Britt Mathiesen,C,-0.061,-0.061,,1
+Nina Wendt,F,-0.061,-0.061,,1
+Mads-Emil Gaardsvig Christensen,Ø,-0.061,-0.061,,1
+Per Ludvigsen,V,-0.061,-0.061,,1
+Carsten Nørballe,F,-0.061,-0.061,,1
+Ane Rolsted,C,-0.061,-0.061,,1
+Anne Eggen,Ø,-0.061,-0.061,,1
+Anne Eskildsen,B,-0.061,-0.061,,1
+Torben Grinderslev,C,-0.061,-0.061,,1
+Bettina Palle,I,-0.061,-0.061,,1
+Tomas Munch Nielsen,F,-0.061,-0.061,,1
+Tina Jacobsen,C,-0.061,-0.061,,1
+Bjarne Henriksen,A,-0.061,-0.061,,1
+Thomas Mølgaard Andersen,Å,-0.061,-0.061,,1
+Søren Bach,V,-0.061,-0.061,,1
+Susanne Bonfils,V,-0.061,-0.061,,1
+Christine Jørnø Vestergaard,A,-0.061,-0.061,,1
+Sofie Kümpel,A,-0.061,-0.061,,1
+René Hülz,F,-0.061,-0.061,,1
+Mads Simonsen,A,-0.061,-0.061,,1
+Peter Kristiansen,F,-0.061,-0.061,,1
+Per Paludan Hansen,V,-0.061,-0.061,,1
+Mette Bram,Å,-0.064,-0.064,,1
+Claus Wagenblast-Franck,C,-0.064,-0.064,,1
+Eva Bechmann,Æ,-0.073,-0.073,,1
+Joseph Favilla,I,-0.074,-0.074,,1
+Asbjørn Dalgaard,A,-0.082,-0.082,,1
+Rie Jakobsen,C,-0.083,-0.083,,1
+Isabel Havndrup Aackmann,B,-0.084,-0.084,,1
+Vibeke Westh,A,-0.087,-0.087,,1
+Casper Pedersen,V,-0.088,-0.088,,1
+Else Marie Thorgaard,C,-0.096,-0.096,,1
+Gabriel Egholm Rasmussen,Ø,-0.102,-0.102,,1
+Matthew Dawids,O,-0.103,-0.103,,1
+Elias Lederhaas,C,-0.107,-0.107,,1
+Malou Ananiassen,C,-0.108,-0.108,,1
+Mia Michelle Haugaard,Ø,-0.108,-0.108,,1
+Thomas Jean Nielsen,M,-0.11,-0.11,,1
+Emil Samaras,Ø,-0.116,-0.116,,1
+Tone Høybye,Ø,-0.118,-0.118,,1
+Lone Loklindt,B,-0.118,-0.118,,1
+Daniel Panduro,Ø,-0.118,-0.118,,1
+Bjarke Bisgaard Yolal,F,-0.12,-0.12,,1
+Frederik Tuxen Bjerrum,I,-0.121,-0.121,,1
+Lotte Kofoed,F,-0.123,-0.123,,1
+Annedorthe Kring,Å,-0.124,-0.124,,1
+Christina Sylvest-Noer,A,-0.124,-0.124,,1
+Rune Rummel,A,-0.124,-0.124,,1
+Else Guldager,Ø,-0.124,-0.124,,1
+Mads Freund,M,-0.124,-0.124,,1
+Rasmus Edelberg,A,-0.131,-0.131,,1
+Sine Heltberg,A,-0.133,-0.133,,1
+Palle Bisgaard,Ø,-0.133,-0.133,,1
+Susanne Nørlund Munk,A,-0.137,-0.137,,1
+Jesper Ronald Jensen,C,-0.142,-0.142,,1
+Per Toni Hansen,B,-0.142,-0.142,,1
+Thomas Frank,A,-0.142,-0.142,,1
+Jan E. Jørgensen,V,-0.147,-0.147,,1
+Tim Tue Wodskou,Å,-0.15,-0.15,,1
+Kim Hjerrild,Å,-0.151,-0.151,,1
+Caspar Stefani,C,-0.152,-0.152,,1
+Marie Budtz Andersen,C,-0.152,-0.152,,1
+Henrik Kragelund,C,-0.152,-0.152,,1
+Anders Storgaard,C,-0.161,-0.161,,1
+Bianca Vitting,Ø,-0.166,-0.166,,1
+Rikke Alice Bille,B,-0.167,-0.167,,1
+Henrik Karl Hierl,I,-0.169,-0.169,,1
+Rosa Agersnap Bone,Ø,-0.181,-0.181,,1
+Pil Yildiz,Ø,-0.183,-0.183,,1
+Brian Holm,C,-0.186,-0.186,,1
+Søren Frost,V,-0.186,-0.186,,1
+Ebbe Wendt Lorenzen,A,-0.187,-0.187,,1
+Laura Lindahl,C,-0.187,-0.187,,1
+Lars Berg Andersen,I,-0.205,-0.205,,1
+Britt Dam,A,-0.207,-0.207,,1
+Fasael Rehman,C,-0.208,-0.208,,1
+Cecilie Fisker,M,-0.215,-0.215,,1
+Jimmy Streit,C,-0.217,-0.217,,1
+Helle Sjelle,M,-0.219,-0.219,,1
+Rasmus Holme,Ø,-0.242,-0.242,,1
+Joachim Høyrup,V,-0.247,-0.247,,1
+Nikolaj Bøgh,C,-0.249,-0.249,,1
+Michella Lescher,F,-0.282,-0.282,,1
