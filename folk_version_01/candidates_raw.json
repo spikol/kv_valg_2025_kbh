@@ -1,0 +1,238 @@
+[
+  {
+    "candidate_id": "882",
+    "name": "Marcus Vesterager",
+    "party": "A",
+    "stemmekreds": "Vesterbrokredsen",
+    "url": "https://www.dr.dk/nyheder/politik/folketingsvalg/din-stemmeseddel/kandidater/882-marcus-vesterager",
+    "uddannelse": "Kandidat-/masteruddannelse",
+    "bopael": "",
+    "alder": "",
+    "erhverv": "",
+    "sociale_medier": [],
+    "priorities": [
+      {
+        "number": 1,
+        "title": "Hovedstaden styrker Danmark",
+        "description": "København er en fantastisk by også fra et internationalt perspektiv, og det kommer hele Danmark til gode. Derfor skal vi stoppe med at betragte Københavns succes som et problem for provinsen. By står ikke i modsætning til land. Vi skal fortsat investere i den kollektive trafik til og i Københavnsområdet, og vi skal bryde med nedskæringsdogmer på uddannelses- og kulturområdet.",
+        "full_text": "Hovedstaden styrker Danmark : København er en fantastisk by også fra et internationalt perspektiv, og det kommer hele Danmark til gode. Derfor skal vi stoppe med at betragte Københavns succes som et problem for provinsen. By står ikke i modsætning til land. Vi skal fortsat investere i den kollektive trafik til og i Københavnsområdet, og vi skal bryde med nedskæringsdogmer på uddannelses- og kulturområdet."
+      },
+      {
+        "number": 2,
+        "title": "Grøn omstilling styrker Danmark",
+        "description": "Den grønne omstilling er både en nødvendighed og en mulighed. Grøn energi gør os mindre afhængig af fossil energi, det skaber nye arbejdspladser og nye løsninger, der kan eksporteres til resten af verden. Politisk skal vi sikre de bedste rammer, og det gør vi ikke nu. Blandt andet mener jeg som arkitekt, at bygningsreglementet må ændres, så det bliver nemmere at renovere i stedet for bygge nyt.",
+        "full_text": "Grøn omstilling styrker Danmark : Den grønne omstilling er både en nødvendighed og en mulighed. Grøn energi gør os mindre afhængig af fossil energi, det skaber nye arbejdspladser og nye løsninger, der kan eksporteres til resten af verden. Politisk skal vi sikre de bedste rammer, og det gør vi ikke nu. Blandt andet mener jeg som arkitekt, at bygningsreglementet må ændres, så det bliver nemmere at renovere i stedet for bygge nyt."
+      },
+      {
+        "number": 3,
+        "title": "Indvandring styrker Danmark",
+        "description": "Der er og har været problemer på indvandringsområdet, men det må ikke forrå os eller indskrænke os. Som minoritetsetnisk dansker har jeg desværre oplevet at blive mødt med fordomme. Jeg synes, vi har en politisk pligt til at understrege, at indvandring også bidrager positivt til vores kultur, vores økonomi og vores medmenneskelighed. Det arbejde starter ved at hæve vores udviklingsbistand.",
+        "full_text": "Indvandring styrker Danmark : Der er og har været problemer på indvandringsområdet, men det må ikke forrå os eller indskrænke os. Som minoritetsetnisk dansker har jeg desværre oplevet at blive mødt med fordomme. Jeg synes, vi har en politisk pligt til at understrege, at indvandring også bidrager positivt til vores kultur, vores økonomi og vores medmenneskelighed. Det arbejde starter ved at hæve vores udviklingsbistand."
+      }
+    ],
+    "num_priorities": 3,
+    "test_answers": {
+      "1": {
+        "question": "1 /25 | Bolig De boligejere, der tjener mest på prisstigninger, skal betale mere i skat",
+        "answer": "Enig",
+        "elaboration": "Marcus' svar \"Det er urimeligt, at man kan tjene flere penge på at sove i sin seng end på at gå på arbejde. I mange andre tilfælde er gevinsten skattepligtig, for eksempel aktier. Jeg mener ikke, boliggevinsten skal være undtaget. \" - Marcus Vesterager"
+      },
+      "2": {
+        "question": "2 /25 | Forsvar og sikkerhed Danmark bruger for mange penge på at støtte Ukraine i krigen mod Rusland",
+        "answer": "Enig",
+        "elaboration": "Marcus' svar \"Selvfølgelig skal vi støtte Ukraine. Alternativet vil være grufuldt særligt for ukrainerne men også for vores egen sikkerhed og moral. Der skal selvfølgelig være plads til at diskutere, hvordan vi mest hensigtsmæssigt yder støtte, og jeg mener, støtten fortrinsvis skal gå igennem EU-systemet. Det er godt Danmark støtter meget, men jeg mener, andre lande burde støtte mere. \" - Marcus Vesterager"
+      },
+      "3": {
+        "question": "3 /25 | Økonomi og arbejdsmarked Store Bededag skal genindføres som helligdag, selv om det koster staten penge",
+        "answer": "Enig",
+        "elaboration": "Marcus' svar \"Jeg var uenig i måden, Store Bededag blev afskaffet, for jeg mener, arbejdsmarkedets parter burde have været inddraget. \" - Marcus Vesterager"
+      },
+      "4": {
+        "question": "4 /25 | Retspolitik Det er vigtigere at kunne udvise flere kriminelle udlændinge end at overholde internationale konventioner",
+        "answer": "Enig",
+        "elaboration": "Marcus' svar \"Vi er tydeligvis i en brydningstid, hvor enkeltdele af de internationale konventioner formentlig snart vil omformuleres. Disse konventioner er hjørnesten også i vores hjemlige politiske system, og vi skal ikke negligere dem, men ændre det indefra.  \" - Marcus Vesterager"
+      },
+      "5": {
+        "question": "5 /25 | Social og ulighed Der skal være større udligning mellem rige og fattige kommuner",
+        "answer": "Enig",
+        "elaboration": "Marcus' svar \"Jeg mener, udligning både er en måde at sikre en retfærdig fordeling af landets ressourcer og en nødvendighed for at sikre sammenhold. \" - Marcus Vesterager"
+      },
+      "6": {
+        "question": "6 /25 | Økonomi og arbejdsmarked Folkepensionsalderen skal fortsat stige med et år, når den gennemsnitlige levealder stiger med et år",
+        "answer": "Enig",
+        "elaboration": "Marcus' svar \"I fremtiden vil der være mange flere mennesker i 70'erne, der stadig er på arbejdsmarkedet og godt for det. Men der er stor forskel på, hvilke jobs man kan udføre efter et langt liv. Samtidig skal man også have respekt for, at mennesker ikke er sat på jorden for at arbejde, og at man har ret til at holde fri særligt i sit otium. \" - Marcus Vesterager"
+      },
+      "7": {
+        "question": "7 /25 | Skat Skatten for de højeste indkomster skal sættes op",
+        "answer": "Enig",
+        "elaboration": "Marcus' svar \"Der er stigende ulighed i Danmark, og det risikerer at udfordre vores fællesskabsfølelse. De allerrigeste kan godt bidrage med mere til samfundet, end de gør i dag. Det mener jeg er klassisk socialdemokratisk politik. \" - Marcus Vesterager"
+      },
+      "8": {
+        "question": "8 /25 | Udviklingsbistand Danmark skal bruge færre penge på udviklingsbistand",
+        "answer": "Enig",
+        "elaboration": "Marcus' svar \"Vi skal bruge flere men på den rigtige måde. Udviklingsbistand medvirker til fattigdomsbekæmpelse og skaber bedre lokale forhold. Jeg mener også, vi har en pligt til at hjælpe de fattigste. Bruges udviklingsbistand på den rigtige måde kan det også hjælpe med at indfri vores nationale politiske interesser. Det kan styrke danske virksomheder og sænke interessen i at migrere mod Europa. \" - Marcus Vesterager"
+      },
+      "9": {
+        "question": "9 /25 | Klima, miljø og landbrug Atomkraft på dansk jord skal være en del af energiforsyningen på længere sigt",
+        "answer": "Enig",
+        "elaboration": "Marcus' svar \"Det er dyrt og tager lang tid. Hvis teknologien bliver billigere og sikrere i fremtiden, skal vi selvfølgelig genoverveje det. Vi skal hellere satse på det, vi er bedst til: vind og sol. \" - Marcus Vesterager"
+      },
+      "10": {
+        "question": "10 /25 | Økonomi og arbejdsmarked Overførselsindkomsten til de fattigste kontanthjælpsmodtagere skal sættes op",
+        "answer": "Enig",
+        "elaboration": "Marcus' svar \"Vores samfund er rigt nok til at hjælpe dem, der har det svært. Vi kan selvfølgelig sætte krav til kontanthjælpsmodtagere, men staten skal ikke medvirke til at sende nogen ud i fattigdom. \" - Marcus Vesterager"
+      },
+      "11": {
+        "question": "11 /25 | Skole og uddannelse Flere børn med særlige udfordringer bør gå i specialklasse frem for i almindelige skoleklasser",
+        "answer": "Enig",
+        "elaboration": "Marcus' svar \"Børn med specialbehov skal så vidt muligt være en del af et ligeværdigt børnefællesskab, men der er desværre rigtig mange eksempler på, at det skaber uhensigtsmæssige situationer for alle parter, hvis ikke der er plads til den nødvendige pædagogiske indsats. Inklusionsprojektet er et spareprojekt, der skal genoprettes. Det kan det kun blive, hvis der tilføres flere midler. \" - Marcus Vesterager"
+      },
+      "12": {
+        "question": "12 /25 | Klima, miljø og landbrug Det skal være forbudt for landbruget at sprøjte på sårbare drikkevandsområder, selv om det kan gøre produktionen af fødevarer dyrere",
+        "answer": "Enig",
+        "elaboration": "Marcus' svar \"Vi må finde på andre måder at sænke prisen på fødevarer. Det må simpelthen ikke gå udover vores drikkevand og kommende generationers sundhed. \" - Marcus Vesterager"
+      },
+      "13": {
+        "question": "13 /25 | Transport Det er vigtigere at investere i tog og busser end i motorveje",
+        "answer": "Enig",
+        "elaboration": "Marcus' svar \"Den kollektive trafik fortjener et markant løfte, og der bliver brugt alt for mange penge på øge kapaciteten for bilister, hvilket bare skaber flere biler. Hvis man skal fra Aalborg til København eller fra Hvidovre til Østerbro skal den kollektive trafik være det mest naturlige valg. I Hovedstaden skal vi have have en eksprestunnel til Rigshospitalet, der vil styrke hele metronettet. \" - Marcus Vesterager"
+      },
+      "14": {
+        "question": "14 /25 | Social og ulighed Det er okay, at den økonomiske ulighed stiger, så længe alle bliver rigere",
+        "answer": "Enig",
+        "elaboration": "Marcus' svar \"Det er ikke et problem, at nogle bliver rige og nogle rigere end andre. Men det er et kæmpe problem, når den økonomiske uligheder stiger, og det har den gjort i en årerække.  \" - Marcus Vesterager"
+      },
+      "15": {
+        "question": "15 /25 | Sundhed Prisen på cigaretter bør sættes markant op",
+        "answer": "Enig",
+        "elaboration": "Marcus' svar \"Det bør være et sundhedsmæssigt mål, at der ikke kommer nye rygere. Det skader både rygeren selv men også omgivelserne. \" - Marcus Vesterager"
+      },
+      "16": {
+        "question": "16 /25 | Transport Afgifter på benzin og diesel skal sænkes",
+        "answer": "Enig",
+        "elaboration": "Marcus' svar \"Fremtidens brændstof skal ikke være fossilt, men grønt og bæredygtigt. \" - Marcus Vesterager"
+      },
+      "17": {
+        "question": "17 /25 | Økonomi og arbejdsmarked Politikerne skal arbejde for en aftale om at sætte arbejdstiden ned, selv om det vil koste samfundet og den enkelte noget økonomisk",
+        "answer": "Enig",
+        "elaboration": "Marcus' svar \"Jeg har stor sympati for, at man finder større mening i tilværelsen ved at være sammen med de mennesker, man elsker, end ved at være på arbejde, og vi skal være villige til at have samtalen om, hvorvidt vi kan indrette arbejdsmarkedet anderledes. Men vores fællesskab beror på en gensidig forståelse af pligt og ret, og det er økonomisk uholdbart, hvis vi ikke accepterer den kontrakt. \" - Marcus Vesterager"
+      },
+      "18": {
+        "question": "18 /25 | Udlændinge Ansøgere om dansk statsborgerskab skal screenes for antidemokratiske holdninger",
+        "answer": "Enig",
+        "elaboration": "Marcus' svar \"For at blive dansk statsborger kan vi godt som samfund tillade os at forvente, at man deler nogle grundforestillinger, som kraftigt præger Danmark. Vi kan formodentlig ikke fuldkommen sikre, at en screening vil være tilstrækkelig til at sikre dette, men det bør alligevel være en del af en statsborgerskabsproces. \" - Marcus Vesterager"
+      },
+      "19": {
+        "question": "19 /25 | Klima, miljø og landbrug Når der skal sættes solceller op, bør hensyn til lokalbefolkningen veje tungere end grøn omstilling",
+        "answer": "Enig",
+        "elaboration": "Marcus' svar \"De lokale beboere skal inddrages, og det skal være muligt at få kompensation eller at købe en anpart i solcellerne for at sikre lokalt ejerskab og opbakning. Men lokale indsigelser skal ikke diktere opsætningen af solceller. \" - Marcus Vesterager"
+      },
+      "20": {
+        "question": "20 /25 | Økonomi og arbejdsmarked Der skal åbnes for mere udenlandsk arbejdskraft fra lande uden for Europa og Nordamerika",
+        "answer": "Enig",
+        "elaboration": "Marcus' svar \"Vi har brug for arbejdskraft, og der findes dygtige mennesker i hele verden, der kan bidrage positivt i en række forskelligartede jobs. Det betyder ikke, at de nødvendigvis skal bo her resten af deres liv, og det betyder ikke, vi ikke skal skele til, hvem der har de bedste forudsætninger for at blive en del af samfundet. \" - Marcus Vesterager"
+      },
+      "21": {
+        "question": "21 /25 | Skole og uddannelse Det skal være lettere at smide elever ud af deres folkeskole, hvis deres adfærd skaber problemer",
+        "answer": "Enig",
+        "elaboration": "Marcus' svar \"Folkeskolen er for fællesskabet, og den enkelte elev skal kunne indrette sig. Kan eleven ikke det, må der tages alternativer metoder i brug for at sikre, det ikke går udover de andre elever. Denne enkelte elev skal dog mødes med hjælp og støtte. \" - Marcus Vesterager"
+      },
+      "22": {
+        "question": "22 /25 | Skat Momsen på fødevarer skal sænkes",
+        "answer": "Enig",
+        "elaboration": "Marcus' svar \"Det vil særligt være hensigtsmæssigt at sænke momsen på udvalgte fødevarer, og her tænker jeg på frugt og grønt og økologiske varer. \" - Marcus Vesterager"
+      },
+      "23": {
+        "question": "23 /25 | Kultur Staten skal skære i støtten til Danmarks Radio",
+        "answer": "Enig",
+        "elaboration": "Marcus' svar \"Det er vigtigt at have et fælles objektivt nyhedsmedie. Den fælles offentlighed er en forudsætning for vores demokrati. \" - Marcus Vesterager"
+      },
+      "24": {
+        "question": "24 /25 | Regeringsdannelse Det vil være bedst, hvis der dannes en regering hen over midten",
+        "answer": "Enig",
+        "elaboration": "Marcus' svar \"Vi skal holde fast i den danske norm med at samarbejde bredt. Min prioritet vil naturligvis være, at regeringen bliver præget af rød og grøn politik. \" - Marcus Vesterager"
+      },
+      "25": {
+        "question": "25 /25 | Ældre Det er vigtigere, at der kan skaffes nok ansatte til ældreplejen, end om de kan tale dansk",
+        "answer": "Enig",
+        "elaboration": "Marcus' svar \"Langt de fleste ældre vil formentlig fortrække, at de får den fornødne omsorg, uanset om de kan tale med de ansatte. Samtidig vil der være kolleger, der kan hjælpe med de sproglige barrierer, og med tiden vil disse nye ansatte også lære at tale dansk. \" - Marcus Vesterager"
+      }
+    },
+    "num_test_answers": 25,
+    "svar_1_question": "1 /25 | Bolig De boligejere, der tjener mest på prisstigninger, skal betale mere i skat",
+    "svar_1_answer": "Enig",
+    "svar_1_elaboration": "Marcus' svar \"Det er urimeligt, at man kan tjene flere penge på at sove i sin seng end på at gå på arbejde. I mange andre tilfælde er gevinsten skattepligtig, for eksempel aktier. Jeg mener ikke, boliggevinsten skal være undtaget. \" - Marcus Vesterager",
+    "svar_2_question": "2 /25 | Forsvar og sikkerhed Danmark bruger for mange penge på at støtte Ukraine i krigen mod Rusland",
+    "svar_2_answer": "Enig",
+    "svar_2_elaboration": "Marcus' svar \"Selvfølgelig skal vi støtte Ukraine. Alternativet vil være grufuldt særligt for ukrainerne men også for vores egen sikkerhed og moral. Der skal selvfølgelig være plads til at diskutere, hvordan vi mest hensigtsmæssigt yder støtte, og jeg mener, støtten fortrinsvis skal gå igennem EU-systemet. Det er godt Danmark støtter meget, men jeg mener, andre lande burde støtte mere. \" - Marcus Vesterager",
+    "svar_3_question": "3 /25 | Økonomi og arbejdsmarked Store Bededag skal genindføres som helligdag, selv om det koster staten penge",
+    "svar_3_answer": "Enig",
+    "svar_3_elaboration": "Marcus' svar \"Jeg var uenig i måden, Store Bededag blev afskaffet, for jeg mener, arbejdsmarkedets parter burde have været inddraget. \" - Marcus Vesterager",
+    "svar_4_question": "4 /25 | Retspolitik Det er vigtigere at kunne udvise flere kriminelle udlændinge end at overholde internationale konventioner",
+    "svar_4_answer": "Enig",
+    "svar_4_elaboration": "Marcus' svar \"Vi er tydeligvis i en brydningstid, hvor enkeltdele af de internationale konventioner formentlig snart vil omformuleres. Disse konventioner er hjørnesten også i vores hjemlige politiske system, og vi skal ikke negligere dem, men ændre det indefra.  \" - Marcus Vesterager",
+    "svar_5_question": "5 /25 | Social og ulighed Der skal være større udligning mellem rige og fattige kommuner",
+    "svar_5_answer": "Enig",
+    "svar_5_elaboration": "Marcus' svar \"Jeg mener, udligning både er en måde at sikre en retfærdig fordeling af landets ressourcer og en nødvendighed for at sikre sammenhold. \" - Marcus Vesterager",
+    "svar_6_question": "6 /25 | Økonomi og arbejdsmarked Folkepensionsalderen skal fortsat stige med et år, når den gennemsnitlige levealder stiger med et år",
+    "svar_6_answer": "Enig",
+    "svar_6_elaboration": "Marcus' svar \"I fremtiden vil der være mange flere mennesker i 70'erne, der stadig er på arbejdsmarkedet og godt for det. Men der er stor forskel på, hvilke jobs man kan udføre efter et langt liv. Samtidig skal man også have respekt for, at mennesker ikke er sat på jorden for at arbejde, og at man har ret til at holde fri særligt i sit otium. \" - Marcus Vesterager",
+    "svar_7_question": "7 /25 | Skat Skatten for de højeste indkomster skal sættes op",
+    "svar_7_answer": "Enig",
+    "svar_7_elaboration": "Marcus' svar \"Der er stigende ulighed i Danmark, og det risikerer at udfordre vores fællesskabsfølelse. De allerrigeste kan godt bidrage med mere til samfundet, end de gør i dag. Det mener jeg er klassisk socialdemokratisk politik. \" - Marcus Vesterager",
+    "svar_8_question": "8 /25 | Udviklingsbistand Danmark skal bruge færre penge på udviklingsbistand",
+    "svar_8_answer": "Enig",
+    "svar_8_elaboration": "Marcus' svar \"Vi skal bruge flere men på den rigtige måde. Udviklingsbistand medvirker til fattigdomsbekæmpelse og skaber bedre lokale forhold. Jeg mener også, vi har en pligt til at hjælpe de fattigste. Bruges udviklingsbistand på den rigtige måde kan det også hjælpe med at indfri vores nationale politiske interesser. Det kan styrke danske virksomheder og sænke interessen i at migrere mod Europa. \" - Marcus Vesterager",
+    "svar_9_question": "9 /25 | Klima, miljø og landbrug Atomkraft på dansk jord skal være en del af energiforsyningen på længere sigt",
+    "svar_9_answer": "Enig",
+    "svar_9_elaboration": "Marcus' svar \"Det er dyrt og tager lang tid. Hvis teknologien bliver billigere og sikrere i fremtiden, skal vi selvfølgelig genoverveje det. Vi skal hellere satse på det, vi er bedst til: vind og sol. \" - Marcus Vesterager",
+    "svar_10_question": "10 /25 | Økonomi og arbejdsmarked Overførselsindkomsten til de fattigste kontanthjælpsmodtagere skal sættes op",
+    "svar_10_answer": "Enig",
+    "svar_10_elaboration": "Marcus' svar \"Vores samfund er rigt nok til at hjælpe dem, der har det svært. Vi kan selvfølgelig sætte krav til kontanthjælpsmodtagere, men staten skal ikke medvirke til at sende nogen ud i fattigdom. \" - Marcus Vesterager",
+    "svar_11_question": "11 /25 | Skole og uddannelse Flere børn med særlige udfordringer bør gå i specialklasse frem for i almindelige skoleklasser",
+    "svar_11_answer": "Enig",
+    "svar_11_elaboration": "Marcus' svar \"Børn med specialbehov skal så vidt muligt være en del af et ligeværdigt børnefællesskab, men der er desværre rigtig mange eksempler på, at det skaber uhensigtsmæssige situationer for alle parter, hvis ikke der er plads til den nødvendige pædagogiske indsats. Inklusionsprojektet er et spareprojekt, der skal genoprettes. Det kan det kun blive, hvis der tilføres flere midler. \" - Marcus Vesterager",
+    "svar_12_question": "12 /25 | Klima, miljø og landbrug Det skal være forbudt for landbruget at sprøjte på sårbare drikkevandsområder, selv om det kan gøre produktionen af fødevarer dyrere",
+    "svar_12_answer": "Enig",
+    "svar_12_elaboration": "Marcus' svar \"Vi må finde på andre måder at sænke prisen på fødevarer. Det må simpelthen ikke gå udover vores drikkevand og kommende generationers sundhed. \" - Marcus Vesterager",
+    "svar_13_question": "13 /25 | Transport Det er vigtigere at investere i tog og busser end i motorveje",
+    "svar_13_answer": "Enig",
+    "svar_13_elaboration": "Marcus' svar \"Den kollektive trafik fortjener et markant løfte, og der bliver brugt alt for mange penge på øge kapaciteten for bilister, hvilket bare skaber flere biler. Hvis man skal fra Aalborg til København eller fra Hvidovre til Østerbro skal den kollektive trafik være det mest naturlige valg. I Hovedstaden skal vi have have en eksprestunnel til Rigshospitalet, der vil styrke hele metronettet. \" - Marcus Vesterager",
+    "svar_14_question": "14 /25 | Social og ulighed Det er okay, at den økonomiske ulighed stiger, så længe alle bliver rigere",
+    "svar_14_answer": "Enig",
+    "svar_14_elaboration": "Marcus' svar \"Det er ikke et problem, at nogle bliver rige og nogle rigere end andre. Men det er et kæmpe problem, når den økonomiske uligheder stiger, og det har den gjort i en årerække.  \" - Marcus Vesterager",
+    "svar_15_question": "15 /25 | Sundhed Prisen på cigaretter bør sættes markant op",
+    "svar_15_answer": "Enig",
+    "svar_15_elaboration": "Marcus' svar \"Det bør være et sundhedsmæssigt mål, at der ikke kommer nye rygere. Det skader både rygeren selv men også omgivelserne. \" - Marcus Vesterager",
+    "svar_16_question": "16 /25 | Transport Afgifter på benzin og diesel skal sænkes",
+    "svar_16_answer": "Enig",
+    "svar_16_elaboration": "Marcus' svar \"Fremtidens brændstof skal ikke være fossilt, men grønt og bæredygtigt. \" - Marcus Vesterager",
+    "svar_17_question": "17 /25 | Økonomi og arbejdsmarked Politikerne skal arbejde for en aftale om at sætte arbejdstiden ned, selv om det vil koste samfundet og den enkelte noget økonomisk",
+    "svar_17_answer": "Enig",
+    "svar_17_elaboration": "Marcus' svar \"Jeg har stor sympati for, at man finder større mening i tilværelsen ved at være sammen med de mennesker, man elsker, end ved at være på arbejde, og vi skal være villige til at have samtalen om, hvorvidt vi kan indrette arbejdsmarkedet anderledes. Men vores fællesskab beror på en gensidig forståelse af pligt og ret, og det er økonomisk uholdbart, hvis vi ikke accepterer den kontrakt. \" - Marcus Vesterager",
+    "svar_18_question": "18 /25 | Udlændinge Ansøgere om dansk statsborgerskab skal screenes for antidemokratiske holdninger",
+    "svar_18_answer": "Enig",
+    "svar_18_elaboration": "Marcus' svar \"For at blive dansk statsborger kan vi godt som samfund tillade os at forvente, at man deler nogle grundforestillinger, som kraftigt præger Danmark. Vi kan formodentlig ikke fuldkommen sikre, at en screening vil være tilstrækkelig til at sikre dette, men det bør alligevel være en del af en statsborgerskabsproces. \" - Marcus Vesterager",
+    "svar_19_question": "19 /25 | Klima, miljø og landbrug Når der skal sættes solceller op, bør hensyn til lokalbefolkningen veje tungere end grøn omstilling",
+    "svar_19_answer": "Enig",
+    "svar_19_elaboration": "Marcus' svar \"De lokale beboere skal inddrages, og det skal være muligt at få kompensation eller at købe en anpart i solcellerne for at sikre lokalt ejerskab og opbakning. Men lokale indsigelser skal ikke diktere opsætningen af solceller. \" - Marcus Vesterager",
+    "svar_20_question": "20 /25 | Økonomi og arbejdsmarked Der skal åbnes for mere udenlandsk arbejdskraft fra lande uden for Europa og Nordamerika",
+    "svar_20_answer": "Enig",
+    "svar_20_elaboration": "Marcus' svar \"Vi har brug for arbejdskraft, og der findes dygtige mennesker i hele verden, der kan bidrage positivt i en række forskelligartede jobs. Det betyder ikke, at de nødvendigvis skal bo her resten af deres liv, og det betyder ikke, vi ikke skal skele til, hvem der har de bedste forudsætninger for at blive en del af samfundet. \" - Marcus Vesterager",
+    "svar_21_question": "21 /25 | Skole og uddannelse Det skal være lettere at smide elever ud af deres folkeskole, hvis deres adfærd skaber problemer",
+    "svar_21_answer": "Enig",
+    "svar_21_elaboration": "Marcus' svar \"Folkeskolen er for fællesskabet, og den enkelte elev skal kunne indrette sig. Kan eleven ikke det, må der tages alternativer metoder i brug for at sikre, det ikke går udover de andre elever. Denne enkelte elev skal dog mødes med hjælp og støtte. \" - Marcus Vesterager",
+    "svar_22_question": "22 /25 | Skat Momsen på fødevarer skal sænkes",
+    "svar_22_answer": "Enig",
+    "svar_22_elaboration": "Marcus' svar \"Det vil særligt være hensigtsmæssigt at sænke momsen på udvalgte fødevarer, og her tænker jeg på frugt og grønt og økologiske varer. \" - Marcus Vesterager",
+    "svar_23_question": "23 /25 | Kultur Staten skal skære i støtten til Danmarks Radio",
+    "svar_23_answer": "Enig",
+    "svar_23_elaboration": "Marcus' svar \"Det er vigtigt at have et fælles objektivt nyhedsmedie. Den fælles offentlighed er en forudsætning for vores demokrati. \" - Marcus Vesterager",
+    "svar_24_question": "24 /25 | Regeringsdannelse Det vil være bedst, hvis der dannes en regering hen over midten",
+    "svar_24_answer": "Enig",
+    "svar_24_elaboration": "Marcus' svar \"Vi skal holde fast i den danske norm med at samarbejde bredt. Min prioritet vil naturligvis være, at regeringen bliver præget af rød og grøn politik. \" - Marcus Vesterager",
+    "svar_25_question": "25 /25 | Ældre Det er vigtigere, at der kan skaffes nok ansatte til ældreplejen, end om de kan tale dansk",
+    "svar_25_answer": "Enig",
+    "svar_25_elaboration": "Marcus' svar \"Langt de fleste ældre vil formentlig fortrække, at de får den fornødne omsorg, uanset om de kan tale med de ansatte. Samtidig vil der være kolleger, der kan hjælpe med de sproglige barrierer, og med tiden vil disse nye ansatte også lære at tale dansk. \" - Marcus Vesterager"
+  }
+]

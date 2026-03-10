@@ -1,0 +1,306 @@
+{
+  "candidate": {
+    "id": 480,
+    "name": "Jarl Matthiesen",
+    "party": "Venstre, Danmarks Liberale Parti",
+    "party_code": "V",
+    "constituency": "Struerkredsen",
+    "city": "Herning",
+    "profession": "Leder",
+    "education": "Kandidat-/masteruddannelse"
+  },
+  "maerkesager": [
+    {
+      "number": 1,
+      "title": "Økonomi",
+      "text": "God økonomi er forudsætning for alt andet."
+    },
+    {
+      "number": 2,
+      "title": "Forsvar og sikkerhed",
+      "text": "Som verden har udviklet sig på det seneste, er det nødvendigt at Europa selv kan tage vare på egen sikkerhed, nu hvor USA er blevet utilregneligt. Derfor må vi yde vores del."
+    },
+    {
+      "number": 3,
+      "title": "Energi og miljø",
+      "text": "Uden tilstrækkelig og stabil energiforsyning har vi intet samfund. Uden et miljø i balance har vi ingen fremtid."
+    }
+  ],
+  "answers": [
+    {
+      "question_id": 1270,
+      "topic": "SKAT OG AFGIFTER",
+      "question": "De boligejere, der tjener mest på prisstigninger, skal betale mere i skat",
+      "argument_for": "Boligpriserne er steget markant mange steder, og nogle boligejere har fået store gevinster. Hvis de, der tjener mest på bolig, betaler mere i skat, kan det bidrage til mere økonomisk lighed og give flere penge til velfærd.",
+      "argument_against": "Boligejere betaler allerede høje skatter og afgifter og har allerede betalt skat af de penge, de har købt boligen for. At købe en bolig er en stor beslutning, som folk planlægger deres økonomi efter langt frem i tiden, så det skaber stor usikkerhed at lave om på skatten.",
+      "answer_value": 2,
+      "answer_label": "Enig",
+      "answer_text": "jeg tror på frie markedskræfter.",
+      "is_important": false
+    },
+    {
+      "question_id": 1275,
+      "topic": "ØKONOMI OG ARBEJDSMARKED",
+      "question": "Danmark bruger for mange penge på at støtte Ukraine i krigen mod Rusland",
+      "argument_for": "Det er vigtigere at bruge ressourcerne på udfordringer i Danmark end en krig langt væk.",
+      "argument_against": "Støtten til Ukraine bidrager til europæisk sikkerhed og til at modstå russisk aggression. Det kommer også Danmark til gode.",
+      "answer_value": 2,
+      "answer_label": "Enig",
+      "answer_text": "Jeg tror vi bruger det der er nødvendigt.",
+      "is_important": true
+    },
+    {
+      "question_id": 1304,
+      "topic": "ØKONOMI OG ARBEJDSMARKED",
+      "question": "Store Bededag skal genindføres som helligdag, selv om det koster staten penge",
+      "argument_for": "Det var forkert at afskaffe Store Bededag, fordi det øgede folks samlede arbejdstid. Familier og lønmodtagere er pressede og har derfor behov for den fridag.",
+      "argument_against": "Det mindsker arbejdsudbuddet og kan koste staten flere milliarder kroner om året at genindføre helligdagen. Der er brug for pengene til andre prioriteter. Samtidig er det usikkert, hvordan man skal rulle bededagstillægget tilbage.",
+      "answer_value": 2,
+      "answer_label": "Enig",
+      "answer_text": "I det store billede er det en ligegyldig ting. Jeg foretrækker at vi baserer vores politik på realiteter frem for følelser. Dette spørgsmål er nok mest et forsøg på stemmefiskeri.",
+      "is_important": false
+    },
+    {
+      "question_id": 1300,
+      "topic": "UDLÆNDINGE",
+      "question": "Det er vigtigere at kunne udvise flere kriminelle udlændinge end at overholde internationale konventioner",
+      "argument_for": "Det virker urimeligt, hvis en udlænding får lov at blive i landet trods alvorlig kriminalitet. Det kan krænke retsfølelsen og svække tilliden til systemet.",
+      "argument_against": "Konventioner beskytter grundlæggende rettigheder, og det er afgørende for et lille land som Danmark, at der er en international retsorden, som verdens lande følger. Hvis vi ikke selv overholder konventionerne, er vi med til at underminere dem.",
+      "answer_value": 2,
+      "answer_label": "Enig",
+      "answer_text": "Begge dele er vigtige. Vi må arbejde på at få konventionerne opdateret til den nuværende situation.",
+      "is_important": false
+    },
+    {
+      "question_id": 1289,
+      "topic": "SOCIAL OG ULIGHED",
+      "question": "Der skal være større udligning mellem rige og fattige kommuner",
+      "argument_for": "Der er stor forskel på, hvor velstillede kommunernes borgere er, og hvor meget hjælp de behøver fra det offentlige. Hvis pengene omfordeles endnu mere end i dag, kan det sikre mere ensartet velfærd på tværs af landet og skabe mere lighed.",
+      "argument_against": "De rigeste kommuner betaler allerede meget til de fattigste, og mere udligning kan mindske kommunernes incitament til selv at blive mere effektive, styrke erhvervsliv og skabe job. Mere omfordeling kan svække det kommunale selvstyre og mindske borgeres støtte til systemet i de kommuner, der skal betale mere.",
+      "answer_value": 4,
+      "answer_label": "Uenig",
+      "answer_text": "Jeg tror egentlig at udligningsordningerne fungerer, men hvis man kan finde nogle forbedringe som alle kan leve med, er det svært at stemme imod.",
+      "is_important": false
+    },
+    {
+      "question_id": 1301,
+      "topic": "ØKONOMI OG ARBEJDSMARKED",
+      "question": "Folkepensionsalderen skal fortsat stige med et år, når den gennemsnitlige levealder stiger med et år",
+      "argument_for": "Den stigende pensionsalder er en hovedårsag til Danmarks stærke økonomi. Det er naturligt, at vi arbejder længere i takt med, at vi lever længere.",
+      "argument_against": "Pensionsalderen kan ikke blive ved med at stige. Der må være grænser for, hvor længe man skal arbejde, og den stigende pensionsalder er hårdere for nogle grupper end for andre.",
+      "answer_value": 4,
+      "answer_label": "Uenig",
+      "answer_text": "Principielt enig. Om modellen skal være som beskrevet, eller om der skal være et anderledes forløb, kan der arbejdes med, men det er naturligt, at når levealderen, og borgernes sundhedstilstand forbedres, så er manvel også arbejdsdueldig i længere tid.",
+      "is_important": false
+    },
+    {
+      "question_id": 1285,
+      "topic": "SKAT OG AFGIFTER",
+      "question": "Skatten for de højeste indkomster skal sættes op",
+      "argument_for": "Hvis de rigeste betaler mere i skat, giver det mere lighed i samfundet, og det kan give flere penge, staten kan bruge.",
+      "argument_against": "Dem med de højeste indkomster i forvejen er dem, som betaler og bidrager mest i skat. Skattestigninger kan mindske incitamentet til at arbejde og investere, og det kan gå ud over den samlede velstand.",
+      "answer_value": 2,
+      "answer_label": "Enig",
+      "answer_text": "Det lyder som jantelov. De rigeste betaler allerede mest i skat.",
+      "is_important": true
+    },
+    {
+      "question_id": 1298,
+      "topic": "ØKONOMI OG ARBEJDSMARKED",
+      "question": "Danmark skal bruge færre penge på udviklingsbistand",
+      "argument_for": "Pengene kan bruges bedre på nationale udfordringer. Danmark kan godt sænke bistanden og stadig betale mere end mange andre lande i forhold til vores størrelse.",
+      "argument_against": "Udviklingsbistand er vigtigt for stabilitet og for at bekæmpe fattigdom, der kan føre til flygtningestrømme. Danmark lever i dag akkurat op til FN's anbefaling om, hvor meget de rige lande bør betale i bistand, og det er vigtigt for Danmarks omdømme, at vi bliver ved med det.",
+      "answer_value": 2,
+      "answer_label": "Enig",
+      "answer_text": "Jeg tror det er vigtigt at vi støtter u-lande, så deres levevilkår forbedres. Derved er der større chance for at de lever deres liv i eget land i stedet for at emigrere.",
+      "is_important": false
+    },
+    {
+      "question_id": 1278,
+      "topic": "KLIMA, MILJØ OG LANDBRUG",
+      "question": "Atomkraft på dansk jord skal være en del af energiforsyningen på længere sigt",
+      "argument_for": "Atomkraft udleder næsten ingen CO2 og er derfor et klimavenligt alternativ til olie og kul. Samtidig kræver det meget mindre plads end vind- og solenergi, og det er stabilt døgnet rundt.",
+      "argument_against": "Atomkraft vil være dyrt og tage lang tid at anlægge. Samtidig rejser det spørgsmål om sikkerhed og opbevaring af atomaffald, som er radioaktivt i tusinder af år.",
+      "answer_value": 4,
+      "answer_label": "Uenig",
+      "answer_text": "Egentlig er jeg ligeglad med hvor atomkraftanlæggene etableres. Vores energiforsyning er allerede et fælleseuropæisk anliggende, men jeg medvirker gerne til at forbuddet med atomkraft på dansk jord ophæves.",
+      "is_important": false
+    },
+    {
+      "question_id": 1305,
+      "topic": "ØKONOMI OG ARBEJDSMARKED",
+      "question": "Overførselsindkomsten til de fattigste kontanthjælpsmodtagere skal sættes op",
+      "argument_for": "Uligheden i Danmark er blevet for stor. Vi er for rigt et samfund til at lade de fattigste være så økonomisk pressede, som det er tilfældet for nogle, og det er ikke alle, der er i stand til at arbejde.",
+      "argument_against": "Det skal kunne betale sig at arbejde. Hvis overførselsindkomsterne er for høje, mindsker det incitamentet til at komme i job.",
+      "answer_value": 4,
+      "answer_label": "Uenig",
+      "answer_text": "Det er da måske rimeligt. Det må vel afhænge af beregninger som man laver på Christiansborg. Men samtidi tror jeg at man med fordel kan kigge på baggrunden for de mange kontanthjælpsmodtagere og f.ørtidspensionister",
+      "is_important": false
+    },
+    {
+      "question_id": 1294,
+      "topic": "SKOLE OG UDDANNELSE",
+      "question": "Flere børn med særlige udfordringer bør gå i specialklasse frem for i almindelige skoleklasser",
+      "argument_for": "Specialklasser kan give bedre støtte til barnet med udfordringer. Hvis børn med særlige udfordringer kommer ud af de almindelige klasser, kan der blive mere ro og lærerfokus til de øvrige børn.",
+      "argument_against": "Det kan stigmatisere børn med særlige behov og skabe en mindre rummelig folkeskole. Det er uholdbart, at flere og flere børn ikke kan være i den almindelige folkeskole, da børn i specialtilbud ofte klarer sig dårligt i forhold til uddannelse og arbejde.",
+      "answer_value": 4,
+      "answer_label": "Uenig",
+      "answer_text": "Enig. Jeg tror det vil være en fordel. De dygtige hæmmes ikke i deres udvikling, og de svage får specialiseret hjælp.",
+      "is_important": false
+    },
+    {
+      "question_id": 1277,
+      "topic": "KLIMA, MILJØ OG LANDBRUG",
+      "question": "Det skal være forbudt for landbruget at sprøjte på sårbare drikkevandsområder, selv om det kan gøre produktionen af fødevarer dyrere",
+      "argument_for": "Et sprøjteforbud kan beskytte drikkevandet og mindske risikoen for forurening. Det vurderes at være billigere at beskytte de såkaldte sårbare grundvandsdannende områder omkring vandforsyningerne mod pesticider end at skulle rense drikkevandet.",
+      "argument_against": "Der findes andre metoder til beskyttelse af områderne. Man kan for eksempel give tilskud til pesticidfri dyrkning, lægge skat på pesticider og indgå frivillige aftaler. Et forbud kan presse landbruget, svække danske fødevarers konkurrenceevne og koste arbejdspladser.",
+      "answer_value": 4,
+      "answer_label": "Uenig",
+      "answer_text": "Vores drikkevand og miljø er forvigtigt til at vi ikke håndterer det med sund fornuft.",
+      "is_important": false
+    },
+    {
+      "question_id": 1292,
+      "topic": "TRANSPORT",
+      "question": "Det er vigtigere at investere i tog og busser end i motorveje",
+      "argument_for": "Kollektiv transport er klimavenligt og vigtigt for, at folk uden bil kan komme rundt, mens motorveje fremmer biltrafik og støj og skæmmer landskabet. Der er brug for bedre kollektiv trafik uden for de store byer.",
+      "argument_against": "Mange er afhængige af bil, især uden for byerne. Det skal være let at pendle til job. Et udbygget motorvejsnet er godt for samfundet, fordi varer og arbejdskraft let kan transporteres rundt i landet.",
+      "answer_value": 2,
+      "answer_label": "Enig",
+      "answer_text": "Det er vigtigt at investere i den stransportform som passer til den egn man bor i. Der er mange svar på dette spørgsmål.",
+      "is_important": false
+    },
+    {
+      "question_id": 1288,
+      "topic": "SOCIAL OG ULIGHED",
+      "question": "Det er okay, at den økonomiske ulighed stiger, så længe alle bliver rigere",
+      "argument_for": "Ulighed er ikke et problem i sig selv. Det afgørende er, om alle har en rimelig levestandard, og alle mærker fremgang.",
+      "argument_against": "Ulighed er et problem i sig selv, fordi det skaber kløfter mellem de rigeste og de fattigste og mistillid til samfundets institutioner.",
+      "answer_value": 4,
+      "answer_label": "Uenig",
+      "answer_text": "Med det sikkerhedsnet vi har for de fattigste i Danmark, er det okay.",
+      "is_important": true
+    },
+    {
+      "question_id": 1290,
+      "topic": "SUNDHED OG ÆLDRE",
+      "question": "Prisen på cigaretter bør sættes markant op",
+      "argument_for": "Højere priser kan få flere til at skrue ned eller helt stoppe med at ryge, især unge. Det vil gavne folkesundheden, mindske udgifterne til sundhed og betyde, at folk lever længere.",
+      "argument_against": "Højere cigaretpriser rammer især dem med de laveste indkomster. Det kan få flere til at købe cigaretter i udlandet frem for i danske butikker, og det kan øge illegalt salg. Staten skal ikke være formynderisk.",
+      "answer_value": 4,
+      "answer_label": "Uenig",
+      "answer_text": "ja, og også på generelt usunde fødevarer.",
+      "is_important": false
+    },
+    {
+      "question_id": 1293,
+      "topic": "TRANSPORT",
+      "question": "Afgifter på benzin og diesel skal sænkes",
+      "argument_for": "Det er urimeligt, at det er dyrere at køre i benzin- eller dieselbil end elbil. Det er ikke alle, der vil eller har råd til at skifte til elbil. Inden for varevogne og specialkøretøjer findes der sjældent gode, elektriske alternativer, så afgifterne rammer erhvervslivet.",
+      "argument_against": "Lavere afgifter kan øge forbruget af benzin og diesel og mindske incitamentet til at skifte til elkøretøjer. Det kan skade den grønne omstilling.",
+      "answer_value": 4,
+      "answer_label": "Uenig",
+      "answer_text": "Et rimeligt forslag som jeg støtter. Jeg tænker at om 10-15 år har problemet løst sig selv.",
+      "is_important": false
+    },
+    {
+      "question_id": 1306,
+      "topic": "ØKONOMI OG ARBEJDSMARKED",
+      "question": "Politikerne skal arbejde for en aftale om at sætte arbejdstiden ned, selv om det vil koste samfundet og den enkelte noget økonomisk",
+      "argument_for": "Kortere arbejdstid kan forbedre folks trivsel, give mere tid til familien, mindske stress og øge arbejdsglæden. Man kan også blive mere effektiv i de timer, man arbejder.",
+      "argument_against": "Det kan give lavere løn og vil koste skatteindtægter, vækst og velstand i samfundet.",
+      "answer_value": 2,
+      "answer_label": "Enig",
+      "answer_text": "Det tror jeg ikke er en god ide. Vores konkurranceevne er også afhængige af at vi er flittige.",
+      "is_important": false
+    },
+    {
+      "question_id": 1308,
+      "topic": "UDLÆNDINGE",
+      "question": "Ansøgere om dansk statsborgerskab skal screenes for antidemokratiske holdninger",
+      "argument_for": "Det skal sikre, at personer, der får statsborgerskab, respekterer demokratiske værdier, ytringsfrihed og ligestilling. Hvis man skal være dansk statsborger, skal man bakke op om grundlæggende, danske værdier.",
+      "argument_against": "Det kan være svært at vurdere holdninger objektivt. Staten skal ikke bestemme, hvad man må mene, så længe man overholder samfundets love og regler.",
+      "answer_value": 4,
+      "answer_label": "Uenig",
+      "answer_text": "Generelt skal vi måske være lidt mindre large med at uddele statsborgerskaber.",
+      "is_important": false
+    },
+    {
+      "question_id": 1279,
+      "topic": "KLIMA, MILJØ OG LANDBRUG",
+      "question": "Når der skal sættes solceller op, bør hensyn til lokalbefolkningen veje tungere end grøn omstilling",
+      "argument_for": "Store solcelleanlæg kan ødelægge landskaber, genere folks udsigt og svække værdien af ejendommene i nærheden. Det går særligt ud over folk i landdistrikterne.",
+      "argument_against": "Hensynet til klimaet kræver hurtig udbygning af vedvarende energi, og så må man acceptere, at det går ud over nogen.",
+      "answer_value": 2,
+      "answer_label": "Enig",
+      "answer_text": "Hvis vi gerne vil have stabil strøm i stikkontakterne, må vi nogengange være fleksible. Hvis man f.eks. planter et 10-15 meter bredt skovbælte omkring solcelleparkerne, så vil man ikke kunne se anlæggene. Vi har ikke råd til at være alt for forfængelige i denne sag.",
+      "is_important": true
+    },
+    {
+      "question_id": 1307,
+      "topic": "ØKONOMI OG ARBEJDSMARKED",
+      "question": "Der skal åbnes for mere udenlandsk arbejdskraft fra lande uden for Europa og Nordamerika",
+      "argument_for": "Der mangler hænder i mange sektorer i Danmark, for eksempel inden for sundhed, pleje, byggeri og tech, og der er ikke nok at hente i Europa og Nordamerika.",
+      "argument_against": "Det kan skabe problemer med dårlig integration, hvis der kommer for mange hertil fra ikke-vestlige lande.",
+      "answer_value": 4,
+      "answer_label": "Uenig",
+      "answer_text": "For mig er det mindre vigtigt hvor de kommer fra, men det er vigtigt at de har de kompetancer som vi pt. efterspørger. Det er en omgoing proces.",
+      "is_important": false
+    },
+    {
+      "question_id": 1295,
+      "topic": "SKOLE OG UDDANNELSE",
+      "question": "Det skal være lettere at smide elever ud af deres folkeskole, hvis deres adfærd skaber problemer",
+      "argument_for": "Det kan skabe mere ro for resten af klassen, og lærerne får frigjort opmærksomhed til at tage sig af de øvrige elever. Kommunen må give et andet skoletilbud til eleven, der er smidt ud.",
+      "argument_against": "I dag kan en skoleleder anmode kommunen om at flytte en elev til en anden skole, hvis der er særlige problemer. Det skal ikke være lettere at smide elever ud. Skolen og kommunen må tilbyde eleven den rette hjælp frem for at ekskludere eleven yderligere.",
+      "answer_value": 2,
+      "answer_label": "Enig",
+      "answer_text": "Det er egentlig ikke løsningen. Løsningen bør være at skolerne bliver dygtigere til at håndtere uopdragede børn. At smide dem ud er vel bare at flytte problemet et andet sted hen. De er jo stadig en del af samfundet. Der bør genetableres ganske almindelig god opførsel og respekt.",
+      "is_important": false
+    },
+    {
+      "question_id": 1287,
+      "topic": "SKAT OG AFGIFTER",
+      "question": "Momsen på fødevarer skal sænkes",
+      "argument_for": "Fødevarer er blevet så dyre, at det rammer mange husholdninger hårdt, især dem med de laveste indkomster. En sænkning af momsen kan dæmpe udviklingen.",
+      "argument_against": "Det er dyrt for staten at sænke fødevaremomsen, og hjælpen kommer også de rigeste til gavn. Det skaber mere bureaukrati, at der bliver forskel på momsen på fødevarer og andre varer og tjenester.",
+      "answer_value": 4,
+      "answer_label": "Uenig",
+      "answer_text": "Gerne for mig, hvis økonomien kan bære det.",
+      "is_important": false
+    },
+    {
+      "question_id": 1280,
+      "topic": "ØKONOMI OG ARBEJDSMARKED",
+      "question": "Staten skal skære i støtten til Danmarks Radio",
+      "argument_for": "Der er ikke behov for at bruge skattekroner på et så stort statsligt medie. Forbrugerne ved bedst selv, hvad de vil have, og der er et godt og bredt medieudbud. DR skal ikke blive så stort, at det gør det svært for private medier at konkurrere.",
+      "argument_against": "DR spiller en vigtig rolle for oplysning, kultur og demokrati i hele landet. I en tid, hvor udenlandske techfirmaer og sociale medier vokser, er der brug for et troværdigt medie, der ikke skal tjene penge på brugerne.",
+      "answer_value": 4,
+      "answer_label": "Uenig",
+      "answer_text": "Jeg tror godt at de kunne slankes uden at kvaliteten forringes væsentligt. Men det er ikke en topprioritet for mig.",
+      "is_important": false
+    },
+    {
+      "question_id": 1281,
+      "topic": "REGERINGSDANNELSE",
+      "question": "Det vil være bedst, hvis der dannes en regering hen over midten",
+      "argument_for": "En midterregering kan skabe mere stabile og langtidsholdbare politiske løsninger, og den kan være uafhængig af partier med yderligtgående holdninger.",
+      "argument_against": "Det vil være bedre med en regering, der fører en tydeligt rød eller blå politik. Det gør det også mere klart, hvem der har ansvaret.",
+      "answer_value": 4,
+      "answer_label": "Uenig",
+      "answer_text": "Det mener jeg giver de mest afbalancerede og demokratiske beslutninger.",
+      "is_important": true
+    },
+    {
+      "question_id": 1299,
+      "topic": "SUNDHED OG ÆLDRE",
+      "question": "Det er vigtigere, at der kan skaffes nok ansatte til ældreplejen, end om de kan tale dansk",
+      "argument_for": "Danmark mangler sosu'er og andet personale i ældreplejen, og der er behov for også at ansætte folk med udenlandsk baggrund for at skaffe nok hænder. Det går ud over de ældre, hvis krav om danskkundskaber betyder, at der er for få ansatte.",
+      "argument_against": "Det kan være utrygt for nogle ældre at få besøg eller personlig pleje af nogen, de har svært ved at tale med og forstå. Hvis de ansatte ikke kan tale dansk, kan det give ringere pleje for den enkelte.",
+      "answer_value": 2,
+      "answer_label": "Enig",
+      "answer_text": "Begge dele er nødvendige. Det er ikke enten/eller.",
+      "is_important": false
+    }
+  ]
+}
