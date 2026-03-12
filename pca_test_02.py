@@ -73,7 +73,7 @@ ax.axvline(0, color="grey", lw=0.5)
 
 ax.set_xlabel(f"PC1 ({pca.explained_variance_ratio_[0]:.1%})  —  venstre/udlændinge/DR", fontsize=11)
 ax.set_ylabel(f"PC2 ({pca.explained_variance_ratio_[1]:.1%})  —  pensionsalder/Ukraine", fontsize=11)
-ax.set_title("PCA of party positions (mean responses) — 6-27 distrikter Kbh")
+ax.set_title("PCA of party positions (mean responses based DR Kandidatest) — 6-27 distrikter Kbh")
 
 # Directional annotations
 ax.annotate("← Skær ned / stram udlændingepolitik", xy=(0.02, 0.01), xycoords="axes fraction",
