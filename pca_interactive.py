@@ -1,3 +1,12 @@
+# /// script
+# requires-python = ">=3.11"
+# dependencies = [
+#   "pandas",
+#   "scikit-learn",
+#   "plotly",
+# ]
+# ///
+
 import marimo
 
 __generated_with = "0.20.4"
@@ -17,7 +26,7 @@ def _():
 
 @app.cell(hide_code=True)
 def _(PCA, StandardScaler, pd):
-    df_raw = pd.read_csv("folk_version_03/combined_wide.csv")
+    df_raw = pd.read_csv("https://raw.githubusercontent.com/spikol/kv_valg_2025_kbh/main/folk_version_03/combined_wide.csv")
     cols = ["candidate_id", "name", "party_code"] + [f"q{i}_answer_value" for i in range(1, 26)]
     df = df_raw[cols].dropna().copy()
     q_cols = [f"q{i}_answer_value" for i in range(1, 26)]
