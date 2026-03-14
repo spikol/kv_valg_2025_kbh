@@ -1,5 +1,7 @@
 # DR Municipal Election Candidate Scraper
 
+[![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/spikol/kv_valg_2025_kbh/blob/main/pca_interactive.py)
+
 A comprehensive web scraping tool for extracting candidate information from DR's Danish municipal election pages (Kommunalvalg).
 
 ## 📋 Overview
