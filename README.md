@@ -1,252 +1,117 @@
-# DR Municipal Election Candidate Scraper
+# DR Folketing Election Candidate Scraper & Analysis
 
 [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/spikol/kv_valg_2025_kbh/blob/main/pca_interactive.py)
 
-A comprehensive web scraping tool for extracting candidate information from DR's Danish municipal election pages (Kommunalvalg).
+A scraper and interactive analysis tool for Danish national election (Folketingsvalg) candidate data from DR.dk, covering all 22 electoral districts (kredse).
 
-## 📋 Overview
+## Overview
 
-This project scrapes detailed candidate information from DR.dk including:
-- **Basic Info**: Name, party, municipality
-- **Personal Details**: Education (uddannelse), residence (bopæl), age, occupation (erhverv)
-- **Policy Priorities**: Mærkesager (up to 10 priorities per candidate)
-- **Test Answers**: Political position test responses (19 questions)
-- **Social Media**: Links to candidate social media profiles
+This project scrapes candidate information from DR.dk's election pages and provides an interactive PCA-based visualization to explore ideological positions across parties and candidates.
 
-## 🚀 Features
+**Dataset**: 15,394 candidates across 22 districts, 25 policy questions each.
 
-- ✅ **Interactive Element Handling**: Clicks "vis alle" buttons to reveal all test answers
-- ✅ **Robust Extraction**: Multiple fallback methods for reliable data collection
-- ✅ **Error Handling**: Comprehensive retry logic and graceful failure handling
-- ✅ **Multiple Output Formats**: CSV (wide & long format) and JSON
-- ✅ **Batch Processing**: Scrape single candidates or entire municipalities
-- ✅ **Headless Mode**: Run without browser UI for efficiency
+### Data collected per candidate
 
-## 📁 Project Structure
+- **Basic info**: Name, party code, candidate ID, district
+- **Policy positions**: Answers to 25 political questions (1=Meget enig → 5=Meget uenig)
+- **Mærkesager**: Up to 3 policy priorities with title and description
+
+## Interactive Notebook
+
+The marimo notebook (`pca_interactive.py`) includes:
+
+1. **PCA — all candidates**: Scatter plot with lines to party means, click to see candidate info
+2. **Per-question bar chart**: Mean party response per question
+3. **PCA colored by question**: See where agree/disagree candidates sit spatially
+4. **PCA with lines colored by question**: Combines party structure with question-level color
+5. **Party comparison**: Side-by-side mean responses for any two parties across all 25 questions
+6. **Similarity network**: Connects candidates with cosine similarity above a threshold slider
+
+## Project Structure
 
 ```
 kv_project/
-├── version01/              # Initial development versions
-├── version02/              # Improved versions
-├── version03/              # Latest refined version
-│   └── dr_candidate_scraper_refined01.ipynb  # Main scraper
-├── dr_candidate_scraper.ipynb                # Original version
-├── dr_candidate_scraper_simple.ipynb         # Simplified version
-├── macOS_Selenium_Installation_Guide.md      # Setup guide
-└── README.md                                  # This file
+├── folk_version_02/        # District 6 (pilot scrape)
+│   ├── combined_wide.csv
+│   ├── combined_answers.csv
+│   └── combined_maerkesager.csv
+├── folk_version_03/        # National — all 22 districts
+│   ├── combined_wide.csv       # 15,394 candidates × 25 questions (wide)
+│   ├── combined_answers.csv    # Long format
+│   ├── combined_maerkesager.csv
+│   └── pca_input.csv           # Filtered input for PCA
+├── scrape_candidate2.py    # Scraper for a single district
+├── scrape_candidate3.py    # Scraper for districts 6–27
+├── pca_test.py             # Party-level PCA (district 6)
+├── pca_test_02.py          # Party-level PCA (national)
+├── pcs_cand_01.py          # Candidate-level PCA
+├── pca_candidates_02.py    # Candidate PCA with lines to party means
+└── pca_interactive.py      # Interactive marimo notebook
 ```
 
-## 🛠️ Installation
+## Quick Start
 
-### Prerequisites
-
-- Python 3.12+
-- Chrome browser installed
-- pip package manager
-
-### Step 1: Upgrade pip and setuptools
-
-If you're using Python 3.12, you need to upgrade pip first to avoid compatibility issues:
+### Run the interactive notebook
 
 ```bash
-curl https://bootstrap.pypa.io/get-pip.py -o /tmp/get-pip.py
-python /tmp/get-pip.py --force-reinstall
-python -m pip install --upgrade setuptools
+pip install marimo pandas scikit-learn plotly numpy
+marimo edit pca_interactive.py
 ```
 
-### Step 2: Install Required Packages
+### Scrape national data
 
 ```bash
-pip install selenium webdriver-manager beautifulsoup4 pandas lxml requests
+python scrape_candidate3.py   # scrapes districts 6–27 into folk_version_03/
 ```
 
-Or run the first cell in the Jupyter notebook:
+## Output Format
 
-```python
-%pip install selenium webdriver-manager beautifulsoup4 pandas lxml
+### combined_wide.csv
+
+```
+candidate_id, name, party_code,
+q1_question, q1_answer_value, q1_answer_label, q1_answer_text, q1_is_important,
+... (×25 questions) ...,
+mk1_title, mk1_text, mk2_title, mk2_text, mk3_title, mk3_text
 ```
 
-## 🎯 Quick Start
+### combined_answers.csv (long format)
 
-### Scrape a Single Candidate
-
-```python
-from selenium import webdriver
-from scraper import setup_driver, scrape_candidate_refined
-
-# Initialize driver
-driver = setup_driver(headless=True)
-
-# Scrape candidate
-candidate_url = "https://www.dr.dk/nyheder/politik/kommunalvalg/din-stemmeseddel/kandidater/kommune/..."
-candidate_data = scrape_candidate_refined(candidate_url, driver)
-
-# Close driver
-driver.quit()
+```
+candidate_id, name, party_code, question_number, question_text, answer_value, answer_label, is_important
 ```
 
-### Scrape All Candidates from a Municipality
+## Candidates per party (national)
 
-```python
-from scraper import scrape_municipality_refined
+| Party | Candidates |
+| ----- | ---------- |
+| Å | 242 |
+| A | 230 |
+| C | 230 |
+| B | 228 |
+| I | 224 |
+| Ø | 217 |
+| F | 212 |
+| V | 195 |
+| O | 179 |
+| M | 136 |
+| Æ | 93 |
+| H | 87 |
+| **Total** | **2,280** |
 
-municipality_url = "https://www.dr.dk/nyheder/politik/kommunalvalg/din-stemmeseddel/49"
-candidates = scrape_municipality_refined(municipality_url)
-```
+## PCA Results
 
-### Scrape Multiple Municipalities
+The two principal components explain **81%** of variance in party positions:
 
-```python
-municipality_ids = [165, 153, 159, 161]  # Municipality IDs
-all_candidates = scrape_multiple_municipalities(municipality_ids)
-```
+- **PC1 (64%)**: Left-right axis — public transport / foreign aid / DR vs. tax cuts / deportation / DR cuts
+- **PC2 (17%)**: Secondary axis — populist vs. pragmatic/centrist positioning
 
-## 📊 Output Data
+## Legal & Ethical
 
-### Main Candidate DataFrame
-```csv
-candidate_id,name,party,municipality,uddannelse,bopael,alder,erhverv,num_priorities,num_test_answers,url
-```
+- Data sourced from DR.dk's public election pages
+- For research and educational purposes
+- Please respect DR.dk's terms of service and rate limit requests
 
-### Mærkesager (Policy Priorities) DataFrame
-```csv
-candidate_id,name,party,municipality,priority_number,priority_title,priority_description,priority_full_text
-```
+## License
 
-### Test Answers (Wide Format)
-```csv
-candidate_id,name,party,municipality,svar_1_question,svar_1_answer,svar_2_question,svar_2_answer,...
-```
-
-### Test Answers (Long Format)
-```csv
-candidate_id,name,party,municipality,question_number,question_text,answer_text
-```
-
-### Complete JSON
-Full nested structure with all data in `candidates_complete_refined.json`
-
-## 🔧 Configuration
-
-### WebDriver Options
-
-Customize the Chrome driver in `setup_driver()`:
-
-```python
-def setup_driver(headless=True):
-    options = Options()
-    if headless:
-        options.add_argument('--headless=new')
-    options.add_argument('--window-size=1920,1080')
-    # Add more options as needed
-    return driver
-```
-
-### Scraping Parameters
-
-- `wait_time`: Page load timeout (default: 15 seconds)
-- `max_candidates`: Limit candidates per municipality
-- `max_attempts`: Button click retry attempts (default: 3)
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-**1. `AttributeError: module 'pkgutil' has no attribute 'ImpImporter'`**
-
-This is a Python 3.12 compatibility issue. Solution:
-```bash
-curl https://bootstrap.pypa.io/get-pip.py -o /tmp/get-pip.py
-python /tmp/get-pip.py --force-reinstall
-```
-
-**2. ChromeDriver not found**
-
-The `webdriver-manager` package should handle this automatically. If issues persist:
-```bash
-pip install --upgrade webdriver-manager
-```
-
-**3. Incomplete data extraction**
-
-- Check if the page structure has changed
-- Increase `wait_time` parameter
-- Run in non-headless mode to debug: `setup_driver(headless=False)`
-
-**4. Rate limiting**
-
-Add delays between requests:
-```python
-time.sleep(2)  # Wait 2 seconds between candidates
-```
-
-## 📝 Example Usage
-
-See the latest notebook: `version03/dr_candidate_scraper_refined01.ipynb`
-
-The notebook includes:
-1. Installation instructions
-2. Single candidate test
-3. Full municipality scrape
-4. Data export to multiple formats
-5. Summary statistics
-
-## 🤝 Contributing
-
-When making improvements:
-1. Create a new version folder (e.g., `version04/`)
-2. Test thoroughly with single candidates first
-3. Document any new features or changes
-4. Update this README
-
-## ⚠️ Legal & Ethical Considerations
-
-- **Respect robots.txt**: Check DR.dk's robots.txt before scraping
-- **Rate Limiting**: Include delays between requests
-- **Terms of Service**: Ensure compliance with DR.dk's terms
-- **Data Usage**: Use scraped data responsibly and ethically
-- **Attribution**: Credit DR.dk as the data source
-
-## 📈 Data Quality
-
-The scraper includes multiple extraction methods with fallbacks:
-- **Method 1**: Structured HTML parsing
-- **Method 2**: Text pattern matching
-- **Method 3**: DOM traversal with regex
-
-This ensures maximum data completeness even if page structure varies.
-
-## 🔍 Municipality IDs
-
-Common Copenhagen area municipalities:
-- 49: Frederiksberg
-- 101: Copenhagen
-- 151: Ballerup
-- 153: Brøndby
-- 159: Gladsaxe
-- 161: Glostrup
-- 165: Albertslund
-- 173: Lyngby-Taarbæk
-- 183: Ishøj
-- 187: Vallensbæk
-- 190: Furesø
-- 230: Rudersdal
-- 253: Greve
-
-## 📅 Project Status
-
-**Current Version**: v3 (Refined)
-**Last Updated**: November 2025
-**Status**: Active Development
-
-## 📄 License
-
-This project is for educational and research purposes. Please respect data ownership and usage rights.
-
-## 👤 Author
-
-Developed for scraping Danish municipal election candidate data from DR.dk
-
----
-
-**Note**: This scraper is designed for the 2025 municipal elections. Page structures may change for future elections.
+Educational and research use. Credit DR.dk as data source.

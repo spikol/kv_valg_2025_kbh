@@ -4,6 +4,7 @@
 #   "pandas",
 #   "scikit-learn",
 #   "plotly",
+#   "numpy",
 # ]
 # ///
 
@@ -378,6 +379,111 @@ def _(PARTY_COLORS, df, df_raw, go, mo, party_a, party_b):
     )
 
     mo.ui.plotly(fig5)
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    # --- Cell 6: Similarity network — slider ---
+    net_threshold = mo.ui.slider(
+        start=0.95, stop=0.999, step=0.002, value=0.975,
+        label="Lighed-threshold (cosinus)",
+        show_value=True,
+    )
+    mo.vstack([
+        mo.md("## Lighedsnetværk\nKandidater forbindes hvis deres cosinus-lighed er over threshold. Justér slideren for at se færre/flere forbindelser."),
+        net_threshold,
+    ])
+    return (net_threshold,)
+
+
+@app.cell(hide_code=True)
+def _(PARTY_COLORS, df, go, mo, net_threshold):
+    import numpy as np
+    from sklearn.metrics.pairwise import cosine_similarity
+
+    q_cols_net = [f"q{i}_answer_value" for i in range(1, 26)]
+    X_net = df[q_cols_net].values.astype(float)
+    sim_mat = cosine_similarity(X_net)
+    np.fill_diagonal(sim_mat, 0)
+
+    MAX_EDGES = 8_000
+
+    thr = net_threshold.value
+    ii, jj = np.where(sim_mat >= thr)
+    net_edges = [(i, j) for i, j in zip(ii, jj) if i < j]
+    too_many = len(net_edges) > MAX_EDGES
+
+    pc1_vals = df["pc1"].values
+    pc2_vals = df["pc2"].values
+
+    net_traces = []
+    if not too_many:
+        edge_x, edge_y = [], []
+        for ei, ej in net_edges:
+            edge_x += [float(pc1_vals[ei]), float(pc1_vals[ej]), None]
+            edge_y += [float(pc2_vals[ei]), float(pc2_vals[ej]), None]
+        net_traces.append(go.Scattergl(
+            x=edge_x, y=edge_y, mode="lines",
+            line=dict(color="rgba(100,100,100,0.2)", width=0.8),
+            hoverinfo="skip", showlegend=False,
+        ))
+
+    for net_party, net_group in df.groupby("party_code"):
+        net_color = PARTY_COLORS.get(net_party, "#888")
+        mean_pc1 = net_group["pc1"].mean()
+        mean_pc2 = net_group["pc2"].mean()
+
+        # Lines from candidates to party mean
+        net_lx, net_ly = [], []
+        for _, net_r in net_group.iterrows():
+            net_lx += [net_r["pc1"], mean_pc1, None]
+            net_ly += [net_r["pc2"], mean_pc2, None]
+        net_traces.append(go.Scattergl(
+            x=net_lx, y=net_ly, mode="lines",
+            line=dict(color=net_color, width=0.4),
+            opacity=0.15, showlegend=False, hoverinfo="skip",
+        ))
+
+        # Candidate dots
+        net_traces.append(go.Scattergl(
+            x=net_group["pc1"], y=net_group["pc2"],
+            mode="markers", name=net_party,
+            marker=dict(color=net_color, size=5, opacity=0.75),
+            customdata=net_group[["name", "party_code"]].values,
+            hovertemplate="<b>%{customdata[0]}</b> (%{customdata[1]})<extra></extra>",
+        ))
+
+    # Party mean dots + labels (drawn last so they sit on top)
+    net_means = df.groupby("party_code")[["pc1", "pc2"]].mean().reset_index()
+    net_means["color"] = net_means["party_code"].map(lambda p: PARTY_COLORS.get(p, "#888"))
+    net_traces.append(go.Scatter(
+        x=net_means["pc1"], y=net_means["pc2"],
+        mode="markers+text",
+        text=net_means["party_code"],
+        textposition="top center",
+        textfont=dict(size=12, color="black", family="Arial Black"),
+        marker=dict(color=net_means["color"], size=16, line=dict(color="black", width=1.5)),
+        showlegend=False, hoverinfo="skip",
+    ))
+
+    subtitle = (f"⚠️ {len(net_edges):,} forbindelser — hæv threshold for at se kanter"
+                if too_many else
+                f"{len(net_edges):,} forbindelser ud af {len(df)} kandidater")
+
+    fig_net = go.Figure(net_traces)
+    fig_net.update_layout(
+        title=f"<b>Lighedsnetværk — threshold={thr:.3f}</b><br><sup>{subtitle}</sup>",
+        height=700,
+        plot_bgcolor="white",
+        legend_title="Parti",
+        xaxis=dict(zeroline=True, zerolinecolor="lightgrey", gridcolor="whitesmoke",
+                   title="PC1 — Skær ned/udlændinge ←→ Offentlig transport/bistand/DR"),
+        yaxis=dict(zeroline=True, zerolinecolor="lightgrey", gridcolor="whitesmoke",
+                   title="PC2 — Populistisk ←→ Pragmatisk"),
+    )
+
+    mo.ui.plotly(fig_net)
     return
 
 
